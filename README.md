@@ -5,6 +5,10 @@ Moreover, this tool asks if the user **has permissions over the resource "*"**. 
 
 **NOTE: Permissions from inline policies cannot be discovered using this technique.**
 
+## Requirements
+
+In order to use this tool to check for permissions the user needs to **have the permission `iam:SimulatePrincipalPolicy`**.
+
 ## Quick Start
 
 ```bash
