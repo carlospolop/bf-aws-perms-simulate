@@ -38,7 +38,7 @@ def check_user_permissions(
     permissions: Dict[str, List[str]],
     iam_client: boto3.client,
     user_arn: str,
-    batch_size: int = 50
+    batch_size: int = 100
 ) -> List[str]:
     """
     Check all the permissions of a user using simulate_principal_policy.
