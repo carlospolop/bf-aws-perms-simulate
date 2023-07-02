@@ -1,4 +1,4 @@
-# AWS Simulate Permissions Checker
+# AWS Simulate Permissions Checker
 
 AWS Permissions Checker is a Python script that **retrieves a user's permissions in AWS using the `simulate_principal_policy` method**. This tool allows users to quickly and easily identify all their permissions by asking if they have all of them. Permissions are asked in batched of 100 permissions each time.
 
