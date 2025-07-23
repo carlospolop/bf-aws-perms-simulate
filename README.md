@@ -33,7 +33,7 @@ options:
                        east-1:123456789098:secret:secret_name)
 
 # Replace <AWS_PROFILE> with the name of the AWS profile you want to use. If you don't provide a <USER_ARN>, the script will use the ARN of the profile.
-python3 aws_permissions_checker.py --profile <AWS_PROFILE> [--arn <USER_ARN>] [--services <SERVICES>] [--action <ACTION>] [--resource <RESOURCE>]
+python3 bf-aws-perms-simulate.py --profile <AWS_PROFILE> [--arn <USER_ARN>] [--services <SERVICES>] [--action <ACTION>] [--resource <RESOURCE>]
 ```
 
 - Use `--services` to check permissions only for specific services.
